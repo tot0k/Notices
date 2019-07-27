@@ -13,4 +13,5 @@ Je ne garantis rien concernant ces notices. Utilisez les à vos propres risques,
 Tout ce qui se trouve sur ce repository est sous licence CC BY 4.0.
 
 Résumé de ce que vous pouvez faire : https://creativecommons.org/licenses/by/4.0/
+
 La licence : https://creativecommons.org/licenses/by/4.0/legalcode
