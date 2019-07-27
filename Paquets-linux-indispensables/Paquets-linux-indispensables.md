@@ -1,0 +1,58 @@
+# Paquets linux indispensables
+
+Liste de paquets et logiciels qui simplifient la vie sous linux
+
+
+
+## Exa
+
+Clone de ls avec une colorisation différente, très pratique pour les permissions.
+
+https://the.exa.website/
+
+![./exa.jpg](./exa.jpg)
+
+Pour plus de simplicité, modifier votre fichier .bashrc
+
+`nano ~/.bashrc`
+
+Ajouter / modifier la ligne suivante 
+
+`alias ll='exa -alF --group-directories-first'`
+
+Redémarrez ou tapez la commande `source ~/.bashrc` pour appliquer les changements.
+
+Maintenant, utilisez la commande `ll` !
+
+
+
+## Bat
+
+Permet d'afficher des fichiers dans le terminal avec la colorisation syntaxique
+
+https://github.com/sharkdp/bat
+
+![./exa.jpg](./bat.jpg)
+
+### Utilisation : 
+
+tapez `bat <fichier>` pour afficher le fichier. Utilisez les flèches dirrectionnelles pour vous déplacer, et `q ` pour quitter.
+
+
+
+## Typora
+
+https://typora.io/
+
+Éditeur de fichiers markdown disponible sous Windows, Mac, Linux.
+
+
+
+## Franz
+
+https://meetfranz.com/
+
+Logiciel regroupant tous vos clients de messagerie préférés.
+
+Consomme pas mal de RAM, mais est très pratique. Disponible sous Windows, Mac, Linux.
+
