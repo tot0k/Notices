@@ -18,7 +18,7 @@ Pour plus de simplicité, modifier votre fichier .bashrc
 
 Ajouter / modifier la ligne suivante 
 
-`alias ll='exa -alF --group-directories-first'`
+`alias ll='exa -laF --group-directories-first --header --git --long'`
 
 Redémarrez ou tapez la commande `source ~/.bashrc` pour appliquer les changements.
 
