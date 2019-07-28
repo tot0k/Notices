@@ -40,6 +40,16 @@ tapez `bat <fichier>` pour afficher le fichier. Utilisez les flèches dirrection
 
 
 
+## TL;DR
+
+https://tldr.sh/
+
+Abréviation de "Too long, didn't read", TLDR permet d'avoir des exemples de commandes plutôt que de la doc longue à lire.
+
+![./tldr.png](./tldr.png)
+
+
+
 ## Typora
 
 https://typora.io/
