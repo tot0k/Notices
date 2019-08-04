@@ -10,11 +10,15 @@ Je ne garantis rien concernant ces notices. Utilisez les à vos propres risques,
 
 ## Table des matières
 
-[Paquets linux indispensables]: ./Paquets-linux-indispensables
+- [Paquets linux indispensables](./Paquets-linux-indispensables)
 
-[Paquets linux indispensables](./Paquets-linux-indispensables)
+- [Optimisations pour Windows](./OptimisationPCWindows)
 
+- [Reverse ssh tunnel](./Reverse-ssh-tunnel)
 
+- [LaTeX - VSCode - PlantUML](./LaTeX-VSCode-PlantUML)
+
+  
 
 ## Copyright
 
