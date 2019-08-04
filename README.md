@@ -16,7 +16,7 @@ Je ne garantis rien concernant ces notices. Utilisez les à vos propres risques,
 
 - [Reverse ssh tunnel](./Reverse-ssh-tunnel)
 
-- [LaTeX - VSCode - PlantUML](./LaTeX-VSCode-PlantUML)
+- [LaTeX - VSCode - PlantUML](./LaTex-VSCode-PlantUML)
 
   
 
