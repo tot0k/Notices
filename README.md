@@ -6,6 +6,7 @@ Si vous trouvez des erreurs / optimisations / choses importantes à ajouter, con
 
 Je ne garantis rien concernant ces notices. Utilisez les à vos propres risques, n'oubliez pas de faire des sauvegardes si vous touchez à des configurations sensibles.
 
+> Vous pouvez consulter ces notices sur [https://tot0k.github.io/Notices](totok.github.io/Notices).
 
 
 ## Table des matières
