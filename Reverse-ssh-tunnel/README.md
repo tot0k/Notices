@@ -84,12 +84,12 @@ sudo nano /etc/systemd/system/ssh_tunnel.service
 
 ```
 [Unit]
-Description=Autossh reverse tunnel on local port 22225
+Description=Autossh reverse tunnel on local port 22222
 After=network.target
 
 [Service]
 Environment="AUTOSSH_GATETIME=0"
-ExecStart=/usr/bin/autossh -M 0 -i /etc/ssh/id_rsa-vps -o StrictHostKeyChecking=no -NR 22225:localhost:22 login@adresse.du.vps
+ExecStart=/usr/bin/autossh -M 0 -i /etc/ssh/id_rsa-vps -o StrictHostKeyChecking=no -NR 22222:localhost:22 login@adresse.du.vps
 
 [Install]
 WantedBy=multi-user.target
@@ -107,6 +107,6 @@ sudo systemctl status ssh_tunnel.service # Pour vérifier que le service fonctio
 Pour le lancer au démarrage : 
 
 ```shell
-sudo systemctl enable autossh-mysql-tunnel.service
+sudo systemctl enable ssh_tunnel.service
 ```
 
