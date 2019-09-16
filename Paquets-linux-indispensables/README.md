@@ -50,6 +50,16 @@ Abréviation de "Too long, didn't read", TLDR permet d'avoir des exemples de com
 
 
 
+## TheFuck
+
+https://github.com/nvbn/thefuck
+
+Vous avez oublié un sudo ou fait une faute de frappe dans une commande ? Tapez thefuck et ça vous trouve la commande adaptée (possibilité d'ajouter un alias dans le .bashrc !)
+
+![./thefuck.gif](./thefuck.gif)
+
+
+
 ## Typora
 
 https://typora.io/
