@@ -4,6 +4,33 @@ Liste de paquets et logiciels qui simplifient la vie sous linux
 
 
 
+## BashRC
+
+BashRC n'est pas un paquet, mais un outil très pratique : C'est un fichier situé dans le répertoire home de chaque user, exécuté à la connexion. Il permet notamment de créer des Alias de commandes.
+Pour la plupart des paquets qui suivront je vous mettrai aussi le contenu de mon `.bashrc`, si vous voulez vous simplifier la vie.
+
+Pour modifier le fichier : ouvrez le avec votre éditeur favori : 
+
+```bash
+nano ~/.bashrc
+```
+
+Modifiez le fichier, enregistrez le, puis pour appliquer les changements sans vous déconnecter, tapez la commande suivante.
+
+```bash
+source ~/.bashrc
+```
+
+
+
+Un exemple d'alias utile : 
+
+`alias up="sudo apt-get update -y && sudo apt-get upgrade -y"`
+
+Cela permet de taper "up" pour faire vos mises à jour.
+
+
+
 ## Exa
 
 Clone de ls avec une colorisation différente, très pratique pour les permissions.
@@ -12,17 +39,13 @@ https://the.exa.website/
 
 ![./exa.jpg](./exa.jpg)
 
-Pour plus de simplicité, modifier votre fichier .bashrc
 
-`nano ~/.bashrc`
 
-Ajouter / modifier la ligne suivante 
+> Dans le bashrc
 
-`alias ll='exa -laF --group-directories-first --header --git --long'`
-
-Redémarrez ou tapez la commande `source ~/.bashrc` pour appliquer les changements.
-
-Maintenant, utilisez la commande `ll` !
+`alias ll='exa -laF --group-directories-first --header --git --long'
+alias la='exa -a --group-directories-first'
+alias l='exa -lF --group-directories-first --header --git --long'`
 
 
 
@@ -37,6 +60,12 @@ https://github.com/sharkdp/bat
 ### Utilisation : 
 
 tapez `bat <fichier>` pour afficher le fichier. Utilisez les flèches dirrectionnelles pour vous déplacer, et `q ` pour quitter.
+
+
+
+>  Dans le bashRC
+
+`alias less="bat"`
 
 
 
@@ -57,6 +86,10 @@ https://github.com/nvbn/thefuck
 Vous avez oublié un sudo ou fait une faute de frappe dans une commande ? Tapez thefuck et ça vous trouve la commande adaptée (possibilité d'ajouter un alias dans le .bashrc !)
 
 ![./thefuck.gif](./thefuck.gif)
+
+> Dans le bashRC
+
+`eval $(thefuck --alias)`
 
 
 
