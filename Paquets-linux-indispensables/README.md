@@ -31,6 +31,16 @@ Cela permet de taper "up" pour faire vos mises à jour.
 
 
 
+## Terminator
+
+[Terminator](https://doc.ubuntu-fr.org/terminator) est un émulateur de terminal très customisable, pouvant afficher plusieurs onglets et pouvant être splitté en colonnes et lignes à l'infini.
+
+Pour l'installer, tapez simplement  `sudo apt install terminator`.
+
+Par défaut, le terminal est (très) moche. Voici [ma configuration](./config_terminator), que vous pouvez placer dans `~/.config/terminator/config`.
+
+![image-20200615115711001](/home/totok/Documents/prog/Notices/Paquets-linux-indispensables/terminator.png)
+
 ## Exa
 
 Clone de ls avec une colorisation différente, très pratique pour les permissions.
