@@ -39,7 +39,7 @@ Pour l'installer, tapez simplement  `sudo apt install terminator`.
 
 Par défaut, le terminal est (très) moche. Voici [ma configuration](./config_terminator), que vous pouvez placer dans `~/.config/terminator/config`.
 
-![image-20200615115711001](/home/totok/Documents/prog/Notices/Paquets-linux-indispensables/terminator.png)
+![terminator](./terminator.png)
 
 ## Exa
 
