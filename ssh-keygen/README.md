@@ -10,7 +10,7 @@ Comment palier à ça ? Utilisez du RSA !
 
 Je vous laisse bouquiner ça si l'envie vous prend... 
 
-[https://fr.wikipedia.org/wiki/Cryptographie_asymétrique](wikipedia/Cryptographie asymétrique)
+[wikipedia/Cryptographie asymétrique](https://fr.wikipedia.org/wiki/Cryptographie_asymétrique)
 
 
 
