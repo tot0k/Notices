@@ -52,11 +52,11 @@ https://the.exa.website/
 
 
 > Dans le bashrc
-
-`alias ll='exa -laF --group-directories-first --header --git --long'
+```bash
+alias ll='exa -laF --group-directories-first --header --git --long'
 alias la='exa -a --group-directories-first'
 alias l='exa -lF --group-directories-first --header --git --long'`
-
+```
 
 
 ## Bat
